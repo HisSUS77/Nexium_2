@@ -35,16 +35,13 @@ A full-stack web app that allows users to input a blog URL and receive a summari
 git clone https://github.com/HisSUS77/Nexium_2.git
 cd Nexium_2/assignment2
 2. Install Dependencies
-bash
-Copy
-Edit
+
+
 npm install
 3. Configure Environment Variables
 Create a .env.local file in the root with the following:
 
-env
-Copy
-Edit
+
 # MongoDB
 MONGODB_URI=mongodb+srv://<your-mongo-uri>
 
@@ -54,9 +51,8 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 Replace placeholders with your actual credentials.
 
 4. Run the App Locally
-bash
-Copy
-Edit
+
+
 npm run dev
 Visit http://localhost:3000
 
@@ -70,9 +66,7 @@ Set the same environment variables in the Vercel Dashboard under Project Setting
 Vercel will handle build & deploy automatically
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 assignment2/
 ├── app/                   # App router structure
 ├── components/            # UI components (Input, SummaryCard, etc.)
