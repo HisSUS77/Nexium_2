@@ -25,45 +25,7 @@ A full-stack web app that allows users to input a blog URL and receive a summari
 | ShadCN UI        | Web Scraper (Cheerio / fetch) | MongoDB Atlas        | dotenv (.env.local) |
 | Tailwind CSS     | TypeScript        | Mongoose          | Git + GitHub        |
 
----
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/HisSUS77/Nexium_2.git
-cd Nexium_2/assignment2
-2. Install Dependencies
-
-
-npm install
-3. Configure Environment Variables
-Create a .env.local file in the root with the following:
-
-
-# MongoDB
-MONGODB_URI=mongodb+srv://<your-mongo-uri>
-
-# Supabase
-NEXT_PUBLIC_SUPABASE_URL=https://<your-project>.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-Replace placeholders with your actual credentials.
-
-4. Run the App Locally
-
-
-npm run dev
-Visit http://localhost:3000
-
-📤 Deployment
-This app is optimized for deployment on Vercel:
-
-Just connect your GitHub repo
-
-Set the same environment variables in the Vercel Dashboard under Project Settings → Environment Variables
-
-Vercel will handle build & deploy automatically
 
 📁 Project Structure
 
@@ -92,8 +54,6 @@ assignment2/
 🤝 Contributing
 Pull requests are welcome! If you'd like to fix a bug or suggest a feature, please open an issue first to discuss it.
 
-📄 License
-This project is private for educational purposes and is part of Assignment 2 - Nexium_2. Not licensed for redistribution or commercial use.
 
 👨‍🎓 Author
 Huzaifa Owais
