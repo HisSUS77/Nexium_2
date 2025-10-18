@@ -41,6 +41,7 @@ assignment2/
 ├── README.md
 └── package.json
 
+---
 
 ✨ Future Improvements
 🔍 Real AI summarization using HuggingFace or OpenAI
